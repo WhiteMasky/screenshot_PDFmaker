@@ -26,22 +26,12 @@ Automatically take screenshots and convert them to one PDF in a sudden
 ```bash
 # 基础依赖（所有系统）
 pip install PyQt5 pyautogui pillow reportlab
-
-# macOS 额外依赖（可选，用于窗口检测）
-pip install pyobjc-framework-Quartz pyobjc-framework-AppKit
-
-# Windows 额外依赖（可选，用于窗口检测）
-pip install pywin32
-
-# Linux 额外依赖（需要系统包管理器安装）
-# Ubuntu/Debian: sudo apt-get install xdotool
-# CentOS/RHEL: sudo yum install xdotool
 ```
 
 ### 运行程序
 
 ```bash
-python screenshot_tool.py
+python pdf.py
 ```
 
 ## 📖 使用指南
